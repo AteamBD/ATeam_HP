@@ -1,0 +1,338 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify Gaming Pcs Page",
+        "description": "",
+        "id": "home-page-verification-function;verify-gaming-pcs-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13285609100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefHomePageHp.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11696225800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Mouse Over to Shop",
+            "match": {
+              "location": "StepDefHomePageHp.mouse_Over_to_Shop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5099998300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Gaming Pcs",
+            "match": {
+              "location": "StepDefHomePageHp.click_on_Gaming_Pcs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 637396300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify Gaming Pcs Page Display",
+            "match": {
+              "location": "StepDefHomePageHp.verify_Gaming_Pcs_Page_Display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify Search Result Display",
+        "description": "",
+        "id": "home-page-verification-function;verify-search-result-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25148343400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefHomePageHp.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1345380900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter HP Chromebook In Search Field",
+            "match": {
+              "location": "StepDefHomePageHp.enter_HP_Chromebook_In_Search_Field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4345576500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click on Search Link",
+            "match": {
+              "location": "StepDefHomePageHp.click_on_Search_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461362500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify Search Result Display",
+            "match": {
+              "location": "StepDefHomePageHp.verify_Search_Result_Display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify Hp Envy Printers Page Display",
+        "description": "",
+        "id": "home-page-verification-function;verify-hp-envy-printers-page-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23632180800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefHomePageHp.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9363955300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click On Shop Under Family Printer Option",
+            "match": {
+              "location": "StepDefHomePageHp.click_On_Shop_Under_Family_Printer_Option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1827270900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify Hp Envy Printers Page Display",
+            "match": {
+              "location": "StepDefHomePageHp.verify_Hp_Envy_Printers_Page_Display()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Verification Function",
+    "description": "This feature deals with verification functionalities in Homepage",
+    "id": "home-page-verification-function",
+    "keyword": "Feature",
+    "uri": "HomePageHp.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify User Can Login",
+        "description": "",
+        "id": "login;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23875365900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefHomePageHp.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 468721100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Mouse Over to Shop",
+            "match": {
+              "location": "StepDefHomePageHp.mouse_Over_to_Shop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9987961500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click On HP.com Store",
+            "match": {
+              "location": "StepDefLoginPageHp.click_On_HP_com_Store()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1724273000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Sign in/Register Main link",
+            "match": {
+              "location": "StepDefLoginPageHp.click_on_Sign_in_Register_Main_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2715195500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Sign In Link",
+            "match": {
+              "location": "StepDefLoginPageHp.click_on_Sign_In_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 493665600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter Username and Click Next Link",
+            "match": {
+              "location": "StepDefLoginPageHp.enter_Username_and_Click_Next_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 432501700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter Password and Click On SIGN IN Link",
+            "match": {
+              "location": "StepDefLoginPageHp.enter_Password_and_Click_On_SIGN_IN_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13234312800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify User Can Login",
+            "match": {
+              "location": "StepDefLoginPageHp.verify_User_Can_Login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "This feature deals with the Login Functionalities",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "LoginPageHp.feature"
+  }
+]
